@@ -13,7 +13,7 @@
  */
 class TruthyAndFalsyChecker {
   private static readonly TRUTHY_VALUES = [true, ' ', -1, {}, []];
-  private static readonly FALSY_VALUES = [false, '', 0, null, undefined, NaN];
+  private static readonly FALSY_VALUES = [false, '', 0, null, undefined, NaN, void 0];
 
   static check(): void {
     this.TRUTHY_VALUES.concat(this.FALSY_VALUES).forEach((x) => {

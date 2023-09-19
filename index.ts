@@ -23,3 +23,13 @@ const removeElement = (nums: number[], val: number): number => {
 
 //console.log(removeElement(input, 2));
 console.log(removeElement(input, 2));
+
+function toAccountingString(input): string {
+  if (input != null) {
+    return "input == null";
+  };
+
+  return "alles ok";
+}
+
+console.log(toAccountingString(NaN))
